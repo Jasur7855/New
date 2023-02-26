@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(86, 179, 69);
+}
+#container{
+    width: 60%;
+    margin: 10% auto;
+    
+    
+
+}
+.tab{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid rgb(60, 26, 26);
+    margin-right:-5px ;
+    background-color: rgb(196, 196, 196);
+    cursor: pointer;
+}
+.tab-text{
+    /* display: none; */
+    width: 60%;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+.tab.active{
+    background-color: white;
+    border-bottom: 2px solid white;
+    margin-bottom: -2px;
+}
+.show{
+    display: block;
+}
+.hidde{
+    display: none;
+}
